@@ -1,0 +1,17 @@
+{
+  "name": "test-wdio-firefox-hang",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run wdio",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/browser-runner": "^9.0.7",
+    "@wdio/cli": "^9.0.7",
+    "@wdio/mocha-framework": "^9.0.6"
+  }
+}
